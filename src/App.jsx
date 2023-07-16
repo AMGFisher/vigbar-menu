@@ -13,7 +13,6 @@ import Liquor from "./Liquor.jsx";
 function App() {
   const [data, setData] = useState([]);
 
-
   useEffect(function () {
     async function getData() {
       let { data: Menu, error } = await supabase
@@ -22,23 +21,30 @@ function App() {
         .order("id");
       setData(Menu);
     }
-    getData()
+    getData();
   }, []);
 
   return (
     <>
+      <video
+        src="disco.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        type="video/mp4"
+        id="video"
+      />
 
-<video src="disco.mp4" autoPlay loop muted playsInline type="video/mp4" id="video" />
-
-      <div>Hello World!</div>
       <Nav />
+      
       <Home />
       <Cocktails data={data} />
       <Beer data={data} />
       <Wine data={data} />
       <Food data={data} />
       <Liquor data={data} />
-      <img src='lizard.png' id='lizard' />
+      <img src="lizard.png" id="lizard" />
     </>
   );
 }

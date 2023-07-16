@@ -1,7 +1,9 @@
 export default function Home() {
 return (
     <>
-    <div>Home</div>
+    <div id="logoDiv">
+        <img src="VigLogo.png" id="logo" />
+    </div>
     </>
 )
 

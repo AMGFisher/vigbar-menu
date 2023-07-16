@@ -5,6 +5,7 @@ export default function Beer({ data }) {
     <>
       <div className="box">
         <h1 id="beer">Beer</h1>
+        <h3>+ A Well or Jello Shot for $5</h3>
         <h2>Lagers</h2>
         <ul>
           {beer

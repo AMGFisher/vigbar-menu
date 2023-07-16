@@ -77,6 +77,8 @@ export default function Wine({ data }) {
               </li>
             ))}
         </ul>
+        <h3>Love a type of wine that we don't carry?</h3>
+        <h3>Give us a recommendation!</h3>
       </div>
     </>
   );
