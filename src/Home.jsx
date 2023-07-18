@@ -20,7 +20,7 @@ return (
         <br/>
 
 <h2 id="happyhour">Happy Hour</h2>
-    <h3>Mon-Thurs: Open - 7PM</h3>
+    <h3>Monday - Thursday: Open - 7PM</h3>
     <div className="drink">
         <div>Well Shots</div>
         <div>$5</div>
