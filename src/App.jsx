@@ -37,14 +37,17 @@ function App() {
       />
 
       <Nav />
-      
+      <div id="container">
       <Home />
       <Cocktails data={data} />
       <Beer data={data} />
       <Wine data={data} />
       <Food data={data} />
       <Liquor data={data} />
+      </div>
+      <div style={{marginTop: "7.5rem"}}></div>
       <img src="lizard.png" id="lizard" />
+
     </>
   );
 }
