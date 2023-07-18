@@ -22,6 +22,7 @@ export default function Food({ data }) {
         </ul>
         <h3>Kitchen Closes 9:30PM</h3>
         <h3>Sorry, Substitutions Cannot Be Accommodated</h3>
+        <br/>
         <h4>If pizza isn't your thing, please feel free to bring in anything you want from outside. This neighborhood has fantastic restaurants for you to enjoy. Hell, go pay them a visit! Here are some suggestions:</h4>
         <div id="restaurants">
             <h5>Thai - Thai Diner</h5>

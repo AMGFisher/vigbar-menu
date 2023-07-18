@@ -46,7 +46,7 @@ function App() {
       <Liquor data={data} />
       </div>
       <div style={{marginTop: "7.5rem"}}></div>
-      <img src="lizard.png" id="lizard" />
+      <img src="lizard.png" id="lizard" onClick={() => console.log("Hello World")}/>
 
     </>
   );

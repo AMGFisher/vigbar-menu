@@ -12,10 +12,10 @@ return (
         <br/>
 
         <h4>Cash & Card Accepted</h4>
-        <h4>Gratuity Added For Tabs Left Open and Tabs Over $150</h4>
+        <h4>Gratuity Added for Tabs Left Open and Tabs Over $150</h4>
         <br/>
         <h4>Follow Us @VigBar</h4>
-        <h4>Celebrating 25 Years In Business</h4>
+        <h4>Celebrating 25 Years in Business</h4>
         <h4>Trivia on Mondays</h4>
         <br/>
 
