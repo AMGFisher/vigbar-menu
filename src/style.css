@@ -82,6 +82,13 @@ h2 {
   text-transform: uppercase;
 }
 
+#happyhour {
+  background-image: linear-gradient(135deg, #3b82f6, #ef4444, #16a34a, #eab308);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
 h3 {
   text-align: center;
   font-family: "Lato", sans-serif;
@@ -106,10 +113,11 @@ h5 {
 .drink {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 17px;
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
+  margin-bottom: 2px;
 }
 
 .description {
@@ -117,6 +125,14 @@ h5 {
   font-weight: 300;
   font-size: 16px;
   margin-bottom: 10px;
+}
+
+.qa {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 #restaurants {

@@ -26,9 +26,9 @@ export default function Cocktails({ data }) {
             .filter((drink) => drink.QA !== null)
             .map((drink) => (
               <li>
-                <div>Q: {drink.QA}</div>
+                <div className="qa">Q: {drink.QA}</div>
                 <div className="drink">
-                  <div>{drink.Name} - {drink.Type}</div>
+                  <div>A: {drink.Name} - {drink.Type}</div>
                   <div>${drink.Price}</div>
                 </div>
                 <div className="description">{drink.Description}</div>
